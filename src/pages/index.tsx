@@ -1,12 +1,14 @@
 import type { NextPage } from 'next'
-import * as S from '../styles/pageStyles/Home';
+import * as S from '../styles/pageStyles/Dashboard';
+import HeaderComponent from '../components/Header';
 
-const Home: NextPage = () => {
+const Dashboard: NextPage = () => {
   return (
     <S.Container>
-      <S.Title>Hello World</S.Title>
+      <HeaderComponent />
+      <S.Title></S.Title>
     </S.Container>
   )
 }
 
-export default Home
+export default Dashboard
